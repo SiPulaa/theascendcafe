@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse The Ascend Cafe menu — coffee, non-coffee drinks, refreshers, meals, pasta, pizza, and pastries.">
+  <title>Shop | The Ascend Cafe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <div class="announcement">Freshly made favorites, delivered with care. <a href="shop.html">Order now</a></div>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="The Ascend Cafe home">
+      <span class="brand-mark">A</span>
+      <span class="brand-name">THE ASCEND <strong>CAFE</strong><small>WHERE AMBITION MEETS AROMA</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="main-nav"><a href="index.html">Home</a><a class="active" href="shop.html">Shop</a><a href="about.html">About</a></nav>
+    <div class="header-actions"><a class="icon-link" href="settings.html" aria-label="Account">♙ <span>Account</span></a><a class="cart-link" href="cart.html">Cart <span class="cart-count" id="cartCount">0</span></a></div>
+  </header>
+
+  <main>
+    <section class="shop-hero">
+      <div class="shop-hero-inner">
+        <p class="eyebrow light">THE ASCEND CAFE MENU</p>
+        <h1>Good taste.<br><em>Higher standards.</em></h1>
+        <p>Find your coffee fix, a refreshing sip, or something delicious to share.</p>
+      </div>
+    </section>
+
+    <section class="shop-layout section-wrap">
+      <aside class="shop-sidebar">
+        <p class="eyebrow">BROWSE MENU</p>
+        <h2>Categories</h2>
+        <nav class="category-nav" aria-label="Shop categories">
+          <a href="#coffee">Coffee <span>06</span></a>
+          <a href="#non-coffee">Non-Coffee <span>06</span></a>
+          <a href="#refreshers">Refreshers <span>06</span></a>
+          <a href="#appetizer">Appetizers <span>03</span></a>
+          <a href="#meals">Meals <span>03</span></a>
+          <a href="#pasta">Pasta <span>03</span></a>
+          <a href="#pizza">Pizza <span>03</span></a>
+          <a href="#pastries">Pastries <span>03</span></a>
+        </nav>
+        <div class="sidebar-note"><span>✦</span><strong>A little note</strong><p>Some drinks and snacks come in different sizes. Their final price depends on the option selected.</p></div>
+      </aside>
+
+      <div class="shop-content">
+        <div class="shop-toolbar">
+          <div><p class="eyebrow">MADE FOR YOU</p><h2>Explore the menu</h2></div>
+          <label class="search-box"><span>⌕</span><input id="productSearch" type="search" placeholder="Search the menu..." aria-label="Search products"></label>
+        </div>
+
+        <section class="product-section" id="coffee">
+          <div class="category-heading"><div><p class="eyebrow">01 / DRINKS</p><h3>Coffee</h3></div><span>For the coffee moments.</span></div>
+          <div class="product-grid">
+            <article class="product-card" data-name="Americano coffee"><img src="https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?auto=format&fit=crop&w=700&q=80" alt="Americano coffee"><div class="product-info"><h4>Americano</h4><p>₱60.00 – ₱70.00</p><a href="product.html?item=americano">View details ↗</a></div></article>
+            <article class="product-card" data-name="Cafe Latte coffee"><img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=700&q=80" alt="Cafe latte"><div class="product-info"><h4>Cafe Latte</h4><p>₱70.00 – ₱80.00</p><a href="product.html?item=cafe-latte">View details ↗</a></div></article>
+            <article class="product-card" data-name="Caramel Macchiato coffee"><img src="https://images.unsplash.com/photo-1485808191679-5f86510681a2?auto=format&fit=crop&w=700&q=80" alt="Caramel coffee"><div class="product-info"><h4>Caramel Macchiato</h4><p>₱85.00 – ₱95.00</p><a href="product.html?item=caramel-macchiato">View details ↗</a></div></article>
+            <article class="product-card" data-name="Cafe Mocha coffee"><img src="https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?auto=format&fit=crop&w=700&q=80" alt="Cafe mocha"><div class="product-info"><h4>Cafe Mocha</h4><p>₱85.00 – ₱95.00</p><a href="product.html?item=cafe-mocha">View details ↗</a></div></article>
+            <article class="product-card" data-name="Spanish Latte coffee"><img src="https://images.unsplash.com/photo-1536935338788846bb9981813?auto=format&fit=crop&w=700&q=80" alt="Iced latte"><div class="product-info"><h4>Spanish Latte</h4><p>₱85.00 – ₱95.00</p><a href="product.html?item=spanish-latte">View details ↗</a></div></article>
+            <article class="product-card" data-name="Biscoff Latte coffee"><img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=700&q=80" alt="Latte"><div class="product-info"><h4>Biscoff Latte</h4><p>₱115.00 – ₱130.00</p><a href="product.html?item=biscoff-latte">View details ↗</a></div></article>
+          </div>
+        </section>
+
+        <section class="product-section" id="non-coffee">
+          <div class="category-heading"><div><p class="eyebrow">02 / DRINKS</p><h3>Non-Coffee</h3></div><span>Something sweet and smooth.</span></div>
+          <div class="product-grid">
+            <article class="product-card" data-name="Strawberry Milk non coffee"><img src="https://images.unsplash.com/photo-1553787499-6f9133860278?auto=format&fit=crop&w=700&q=80" alt="Strawberry milk"><div class="product-info"><h4>Strawberry Milk</h4><p>₱95.00 – ₱110.00</p><a href="product.html?item=strawberry-milk">View details ↗</a></div></article>
+            <article class="product-card" data-name="Blueberry Milk non coffee"><img src="https://images.unsplash.com/photo-1527761939622-911b8f2c5a0b?auto=format&fit=crop&w=700&q=80" alt="Blueberry milk drink"><div class="product-info"><h4>Blueberry Milk</h4><p>₱95.00 – ₱110.00</p><a href="product.html?item=blueberry-milk">View details ↗</a></div></article>
+            <article class="product-card" data-name="Mango Milk non coffee"><img src="https://images.unsplash.com/photo-1546173159-315724a31696?auto=format&fit=crop&w=700&q=80" alt="Mango milk drink"><div class="product-info"><h4>Mango Milk</h4><p>₱95.00 – ₱110.00</p><a href="product.html?item=mango-milk">View details ↗</a></div></article>
+            <article class="product-card" data-name="Chocolate Hazelnut non coffee"><img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=700&q=80" alt="Chocolate drink"><div class="product-info"><h4>Chocolate Hazelnut</h4><p>₱110.00 – ₱120.00</p><a href="product.html?item=chocolate-hazelnut">View details ↗</a></div></article>
+            <article class="product-card" data-name="Biscoff Milk non coffee"><img src="https://images.unsplash.com/photo-1577805947697-89e18249d767?auto=format&fit=crop&w=700&q=80" alt="Creamy milk drink"><div class="product-info"><h4>Biscoff Milk</h4><p>₱120.00 – ₱135.00</p><a href="product.html?item=biscoff-milk">View details ↗</a></div></article>
+            <article class="product-card" data-name="Strawberry Matcha non coffee"><img src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?auto=format&fit=crop&w=700&q=80" alt="Matcha drink"><div class="product-info"><h4>Strawberry Matcha</h4><p>₱120.00 – ₱130.00</p><a href="product.html?item=strawberry-matcha">View details ↗</a></div></article>
+          </div>
+        </section>
+
+        <section class="product-section" id="refreshers">
+          <div class="category-heading"><div><p class="eyebrow">03 / DRINKS</p><h3>Refreshers</h3></div><span>Bright, fruity, and refreshing.</span></div>
+          <div class="product-grid">
+            <article class="product-card" data-name="Strawberry Citrus refresher"><img src="https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=700&q=80" alt="Strawberry citrus drink"><div class="product-info"><h4>Strawberry Citrus</h4><p>₱70.00 – ₱85.00</p><a href="product.html?item=strawberry-citrus">View details ↗</a></div></article>
+            <article class="product-card" data-name="Blueberry Citrus refresher"><img src="https://images.unsplash.com/photo-1497534446932-c925b458314e?auto=format&fit=crop&w=700&q=80" alt="Blueberry citrus drink"><div class="product-info"><h4>Blueberry Citrus</h4><p>₱70.00 – ₱85.00</p><a href="product.html?item=blueberry-citrus">View details ↗</a></div></article>
+            <article class="product-card" data-name="Mango Citrus refresher"><img src="https://images.unsplash.com/photo-1546173159-315724a31696?auto=format&fit=crop&w=700&q=80" alt="Mango citrus drink"><div class="product-info"><h4>Mango Citrus</h4><p>₱70.00 – ₱85.00</p><a href="product.html?item=mango-citrus">View details ↗</a></div></article>
+            <article class="product-card" data-name="Strawberry Lemon Fizz refresher"><img src="https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=700&q=80" alt="Strawberry lemon fizz"><div class="product-info"><h4>Strawberry Lemon Fizz</h4><p>₱85.00 – ₱95.00</p><a href="product.html?item=strawberry-lemon-fizz">View details ↗</a></div></article>
+            <article class="product-card" data-name="Blueberry Lemon Fizz refresher"><img src="https://images.unsplash.com/photo-1497534446932-c925b458314e?auto=format&fit=crop&w=700&q=80" alt="Blueberry lemon fizz"><div class="product-info"><h4>Blueberry Lemon Fizz</h4><p>₱85.00 – ₱95.00</p><a href="product.html?item=blueberry-lemon-fizz">View details ↗</a></div></article>
+            <article class="product-card" data-name="Mango Lemon Fizz refresher"><img src="https://images.unsplash.com/photo-1546173159-315724a31696?auto=format&fit=crop&w=700&q=80" alt="Mango lemon fizz"><div class="product-info"><h4>Mango Lemon Fizz</h4><p>₱85.00 – ₱95.00</p><a href="product.html?item=mango-lemon-fizz">View details ↗</a></div></article>
+          </div>
+        </section>
+
+        <section class="product-section" id="appetizer">
+          <div class="category-heading"><div><p class="eyebrow">04 / FOOD</p><h3>Appetizers</h3></div><span>A little something on the side.</span></div>
+          <div class="product-grid">
+            <article class="product-card" data-name="Fries appetizer"><img src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=700&q=80" alt="French fries"><div class="product-info"><h4>Fries</h4><p>₱50.00 – ₱90.00</p><a href="product.html?item=fries">View details ↗</a></div></article>
+            <article class="product-card" data-name="Onion Rings appetizer"><img src="https://images.unsplash.com/photo-1639024471283-03518883512d?auto=format&fit=crop&w=700&q=80" alt="Onion rings"><div class="product-info"><h4>Onion Rings</h4><p>₱50.00 – ₱90.00</p><a href="product.html?item=onion-rings">View details ↗</a></div></article>
+            <article class="product-card" data-name="Salad appetizer"><img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=700&q=80" alt="Fresh salad"><div class="product-info"><h4>Salad</h4><p>₱70.00 – ₱120.00</p><a href="product.html?item=salad">View details ↗</a></div></article>
+          </div>
+        </section>
+
+        <section class="product-section" id="meals">
+          <div class="category-heading"><div><p class="eyebrow">05 / FOOD</p><h3>Meals</h3></div><span>Comfort food for a fuller day.</span></div>
+          <div class="product-grid">
+            <article class="product-card" data-name="Sausage with Rice meal"><img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=700&q=80" alt="Rice meal"><div class="product-info"><h4>Sausage with Rice</h4><p>₱199.00</p><a href="product.html?item=sausage-with-rice">View details ↗</a></div></article>
+            <article class="product-card" data-name="Chicken meal"><img src="https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=700&q=80" alt="Chicken meal"><div class="product-info"><h4>Chicken</h4><p>₱229.00</p><a href="product.html?item=chicken">View details ↗</a></div></article>
+            <article class="product-card" data-name="Burger meal"><img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=700&q=80" alt="Burger"><div class="product-info"><h4>Burger</h4><p>₱249.00</p><a href="product.html?item=burger">View details ↗</a></div></article>
+          </div>
+        </section>
+
+        <section class="product-section" id="pasta">
+          <div class="category-heading"><div><p class="eyebrow">06 / FOOD</p><h3>Pasta</h3></div><span>Rich, hearty, and satisfying.</span></div>
+          <div class="product-grid">
+            <article class="product-card" data-name="Pesto pasta"><img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=700&q=80" alt="Pesto pasta"><div class="product-info"><h4>Pesto</h4><p>₱249.00</p><a href="product.html?item=pesto">View details ↗</a></div></article>
+            <article class="product-card" data-name="Chicken Alfredo pasta"><img src="https://images.unsplash.com/photo-1645112411341-6c4fd023714a?auto=format&fit=crop&w=700&q=80" alt="Chicken alfredo pasta"><div class="product-info"><h4>Chicken Alfredo</h4><p>₱269.00</p><a href="product.html?item=chicken-alfredo">View details ↗</a></div></article>
+            <article class="product-card" data-name="Charlie Chan pasta"><img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=700&q=80" alt="Stir-fried noodles"><div class="product-info"><h4>Charlie Chan</h4><p>₱279.00</p><a href="product.html?item=charlie-chan">View details ↗</a></div></article>
+          </div>
+        </section>
+
+        <section class="product-section" id="pizza">
+          <div class="category-heading"><div><p class="eyebrow">07 / FOOD</p><h3>Pizza</h3></div><span>Made for sharing.</span></div>
+          <div class="product-grid">
+            <article class="product-card" data-name="Cheese Pizza"><img src="https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?auto=format&fit=crop&w=700&q=80" alt="Cheese pizza"><div class="product-info"><h4>Cheese Pizza</h4><p>₱299.00</p><a href="product.html?item=cheese-pizza">View details ↗</a></div></article>
+            <article class="product-card" data-name="Pepperoni Pizza"><img src="https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&w=700&q=80" alt="Pepperoni pizza"><div class="product-info"><h4>Pepperoni Pizza</h4><p>₱329.00</p><a href="product.html?item=pepperoni-pizza">View details ↗</a></div></article>
+            <article class="product-card" data-name="Hawaiian Pizza"><img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=700&q=80" alt="Hawaiian pizza"><div class="product-info"><h4>Hawaiian Pizza</h4><p>₱329.00</p><a href="product.html?item=hawaiian-pizza">View details ↗</a></div></article>
+          </div>
+        </section>
+
+        <section class="product-section" id="pastries">
+          <div class="category-heading"><div><p class="eyebrow">08 / TREATS</p><h3>Pastries</h3></div><span>A sweet finish to your order.</span></div>
+          <div class="product-grid">
+            <article class="product-card" data-name="Cookies pastry"><img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=700&q=80" alt="Fresh cookies"><div class="product-info"><h4>Cookies</h4><p>₱75.00</p><a href="product.html?item=cookies">View details ↗</a></div></article>
+            <article class="product-card" data-name="Croissant pastry"><img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=700&q=80" alt="Croissant"><div class="product-info"><h4>Croissant</h4><p>₱95.00</p><a href="product.html?item=croissant">View details ↗</a></div></article>
+            <article class="product-card" data-name="Waffle pastry"><img src="https://images.unsplash.com/photo-1562376552-0d160a2f238d?auto=format&fit=crop&w=700&q=80" alt="Waffle"><div class="product-info"><h4>Waffle</h4><p>₱129.00</p><a href="product.html?item=waffle">View details ↗</a></div></article>
+          </div>
+        </section>
+        <p class="no-results" id="noResults" hidden>No products found. Try another search.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-top">
+      <a class="brand brand-footer" href="index.html"><span class="brand-mark">A</span><span class="brand-name">THE ASCEND <strong>CAFE</strong><small>WHERE AMBITION MEETS AROMA</small></span></a>
+      <p>Reach New Heights in Every Cup.</p>
+      <a class="text-link light-link" href="about.html">Our story →</a>
+    </div>
+    <div class="footer-bottom"><span>© <span id="year"></span> The Ascend Cafe. All rights reserved.</span><span>Made with care, one cup at a time.</span></div>
+  </footer>
+</body>
+</html>

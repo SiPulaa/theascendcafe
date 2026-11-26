@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Product Details | The Ascend Cafe</title><link rel="stylesheet" href="assets/css/style.css">
+<style>
+.product-detail-wrap{max-width:1100px;margin:40px auto;padding:20px}.product-detail{display:grid;grid-template-columns:1fr 1fr;gap:36px;background:#fff;border-radius:18px;padding:30px;border:1px solid #ddd}
+.product-detail .product-visual{min-height:300px;background:#ebe5d5;border-radius:14px;display:flex;align-items:center;justify-content:center;color:#0c2a4b;font-size:1.5rem;font-weight:700;text-align:center;padding:20px}
+.product-detail h1{color:#0c2a4b}.product-price{font-size:1.4rem;font-weight:700;margin:10px 0 20px}
+.product-options label{display:block;font-weight:600;margin:14px 0 6px}.product-options select,.product-options input,.product-options textarea{width:100%;padding:12px;border:1px solid #bbb;border-radius:8px;font:inherit}
+.product-options .choice-row{display:flex;gap:12px;flex-wrap:wrap}.product-options .choice-row label{display:flex;align-items:center;gap:7px;font-weight:500}
+.add-product{background:#0c2a4b;color:#ebe5d5;padding:13px 22px;border:0;border-radius:9px;font-weight:700;cursor:pointer;margin-top:18px;width:100%}
+@media(max-width:760px){.product-detail{grid-template-columns:1fr;padding:18px}.product-visual{min-height:200px}}
+</style><script src="assets/js/product.js" defer></script></head><body>
+<div class="announcement">Freshly made favorites, delivered with care. <a href="shop.html">Order now</a></div>
+<header class="site-header"><a class="brand" href="index.html" aria-label="The Ascend Cafe home"><span class="brand-mark">A</span><span class="brand-name">THE ASCEND <strong>CAFE</strong><small>WHERE AMBITION MEETS AROMA</small></span></a><button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button><nav class="main-nav"><a href="index.html">Home</a><a href="shop.html">Shop</a><a href="about.html">About</a></nav><div class="header-actions"><a class="icon-link" href="settings.html" aria-label="Account">♙ <span>Account</span></a><a class="cart-link" href="cart.html">Cart <span class="cart-count" id="cartCount">0</span></a></div></header>
+<main class="product-detail-wrap"><a href="shop.html">← Back to shop</a><div id="productDetail"></div></main>
+<footer class="site-footer"><p>THE ASCEND CAFE · WHERE AMBITION MEETS AROMA</p><p>© <span class="current-year"></span> The Ascend Cafe</p></footer>
+</body></html>
